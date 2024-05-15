@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Pizza</title>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Bosh sahifa</a></li>
+    </ul>
+  <!-- headr start -->
+  <header>
+    <h1>Pizza</h1>
+  </header>
+  <!-- headr end -->
+
+  <!-- section start -->
+
+  <!-- section start -->
+  <section>
+    <div class="row">
+      <img src="image/pizza_PNG7105.png" alt="">
+      <img src="image/pizza-png-27.png" alt="">
+      <img src="image/pizza1.png" alt="">
+    </div>
+  </section>
+  <!-- section end -->
+
+  <!-- footer start -->
+
+  <!-- footer end -->
+
+  <script>
+    // disable right click
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
+    document.onkeydown = function (e) {
+        // disable F12 key
+        if (e.keyCode == 123) {
+            return false;
+        }
+
+        // disable I key
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+            return false;
+        }
+
+        // disable J key
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+            return false;
+        }
+
+        // disable U key
+        if (e.ctrlKey && e.keyCode == 85) {
+            return false;
+        }
+    }
+</script>
+
+<h1 style="color: blueviolet;">3500 сум</h1>
+</body>
+
+</html>
